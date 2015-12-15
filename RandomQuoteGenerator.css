@@ -1,0 +1,68 @@
+
+body {
+  background-color: #EAEDF2;
+ /* background-image: url("http://www.macleans.ca/wp-content/uploads/2014/07/MAC28_JOHN_OLIVER01_POST.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat; */
+} 
+
+.container-fluid {
+  padding: 0px;
+}
+
+.img-responsive {
+  z-index: -1;  
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+
+.main-text {
+  padding-left: 50px;
+}
+
+h1 {
+  margin: 50px 0px 0px 0px;
+  font-family: Comic Sans MS;
+  font-size: 40px;
+}
+
+h2 {
+  color: purple;
+  margin-top: 30px;
+  padding-top: 0px;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  
+}
+
+.btn {
+  white-space: normal;
+  word-wrap: break-word; 
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #882426; 
+  font-family: Comic Sans MS;
+  margin: 10px 0px 0px 0px;
+  
+}
+
+h3 /*tweet button*/ {
+  font-family: trebuchet MS;
+  font-size: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+p a /*more about links*/ {
+  color: black;
+}
+  
+.more-info {
+  padding-top: 30px;
+  font-family: trebuchet MS;
+  font-size: 12px;
+  font-weight: bold;
+}
+}
