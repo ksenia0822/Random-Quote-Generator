@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Random Quote Generator</title>
+	<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="RandomQuoteGenerator.css">
+</head>
+
+<body>
+<!--This is a Free Code Camp Zipline Basic project No. 2 -->
+<div class="container-fluid">
+   
+  <div class="row">
+   <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <img src ="http://www.macleans.ca/wp-content/uploads/2014/07/MAC28_JOHN_OLIVER01_POST.jpg" class="img-responsive" alt="Responsive image" style="margin: 0 auto">
+  </div><!--col img-->
+  <!--</div><!--row img--> 
+      
+    <div class = "main-text">
+      <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <h1>John Oliver's Funniest Quotes</h1>
+      </div><!--col headline-->
+      </div><!--row headline-->
+
+      <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <h2 id="newquote">Click to show a quote or set a slideshow</h2>
+      </div><!--col newquote-->
+      </div><!--row newquote-->
+      <!--Tweet button-->
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3><a id="tweetbtn">Tweet this quote</a></h3>
+      </div><!--col-->
+      <!--Buttons-->
+      <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+        <button id="clickbutton" class="btn">Click for the new quote</button>  
+      </div><!--col btn-->
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+        <button id="auto" class="btn">Set a slideshow</button>
+      </div><!--col btn-->
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12">
+        <button id="latest" class="btn">Show this week's quote</button>
+      </div><!--col btn-->
+      </div><!--row btn-->
+
+ <!-- More About -->
+    <div class="row more-info">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+      <p><a href = "http://www.iamjohnoliver.com/" target = "_blank">More about John Oliver</a></p>
+    </div><!--col more about-->
+    </div><!--row more about-->
+      
+
+      
+      </div><!--main-text-->
+    </div><!--col-->
+  </div> <!--main row-->
+</div> <!--container-fluid-->
+
+</body>
+
+<script type="text/javascript" src="RandomQuoteGenerator.js"></script>
+
+</html>
